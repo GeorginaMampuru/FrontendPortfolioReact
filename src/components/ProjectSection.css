@@ -6,7 +6,7 @@
     margin-top: 5rem;
   }
   .work h2{
-    color: #fff;
+    color: #42446e;
     padding: 1rem;
     
   }
@@ -53,7 +53,7 @@
     position: relative;
     overflow:hidden;
     height:30rem;
-    background: #fff;
+    background: #42446e;
     border: none;
   }
   .work .box-container .box img{
@@ -78,7 +78,7 @@
     height: 4.5rem;
     width: 100%;
     padding-left: 1rem;
-    background: #E5E5E5;
+    background: #42446e;
   }
   .work .box-container .box .content .tag h3{
     font-size: 2rem;
@@ -108,11 +108,11 @@
     border-radius: .5rem;
     font-size: 1.5rem;
     color: #fff;
-    background: #E5E5E5;
+    background: #42446e;
     margin-right: 2rem;
   }
   .work .desc .btns .btn:hover{
-    background:#E5E5E5;
+    background: #42446e;
   }
   
   @media screen and (max-width: 450px) {

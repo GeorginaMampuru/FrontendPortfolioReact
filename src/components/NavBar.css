@@ -91,3 +91,55 @@ header {
     width: 100%;
   }
 }
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  background-color: #1a6ce8;
+  width: 20px;
+  height: 5px;
+  display: block;
+  margin: 5px;
+  transition: 0.3s ease-in-out;
+}
+
+.hamburger.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.active .bar:nth-child(1) {
+  transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .bar:nth-child(3) {
+  transform: translateY(-8px) rotate(-45deg);
+}
+
+/* Media Query for Displaying Hamburger Icon */
+@media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  /* Other styles specific to smaller screens */
+}
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .navbar.nav-toggle {
+    position: fixed;
+    top: 5.5rem; /* Adjust this value to fit your design */
+    right: ${props => (props.menuOpen ? '0' : '-120%')}; /* Toggle the right value */
+    width: 100%;
+    height: 100%;
+    text-align: left;
+    align-items: flex-start;
+    background-color: #1a6ce8;
+    border-radius: 0px 0px 0px 90px;
+    transition: right 0.3s ease; /* Add transition for smooth animation */
+  }
+
+  /* ... (rest of your mobile styles) */
+}
