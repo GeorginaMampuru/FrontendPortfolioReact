@@ -2,7 +2,7 @@
 import React from 'react';
 import Navbar from './components/Navbar'; 
 import HeroSection from './components/HeroSection'// Assuming the Navbar component is in a separate file called "Navbar.jsx"
-import Projects from './components/HeroSection'
+import ProjectSection from './components/ProjectSection'
 import SkillsSection from './components/SkillsSection'
 const App = () => {
   return (
@@ -10,7 +10,7 @@ const App = () => {
       <Navbar />
       <HeroSection />
       <SkillsSection />
-      <Projects />
+      <ProjectSection />
     </div>
   );
 };

@@ -46,7 +46,7 @@ const HeroSection = () => {
             </div>
           </div>
           <div className="resumebtn">
-          <a onClick={() => window.open('./assets/Georgina Mampuru - CV 2023.pdf')} className="btn">
+          <a onClick={() => window.open('./Georgina Mampuru - CV 2023.pdf')} className="btn">
               <button>DownloadCV</button>
               {/* <i className="fas fa-chevron-right"></i> */}
             </a>
