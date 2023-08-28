@@ -1,0 +1,93 @@
+/* Navbar.css */
+
+/* Header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background: #E5E5E5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+/* Logo */
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #42446e;
+}
+
+/* Navbar */
+.navbar ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 20px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #42446e;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.navbar a:hover {
+  color: #333;
+}
+
+/* Contact Button */
+.contact-button button {
+  width: 176px;
+  height: 45px;
+  padding: 12px 40px;
+  align-items: flex-start;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #1a6ce8;
+}
+
+.contact-button button:hover {
+  background-color: #444;
+}
+
+/* Hamburger Icon */
+#menu {
+  font-size: 3rem;
+  cursor: pointer;
+  color: #1a6ce8;
+  display: none;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  /* Mobile styling rules... */
+}
+
+/* Style for the underline when link is active */
+.navbar ul li a.active,
+.navbar ul li a:hover,
+.navbar ul li a:focus {
+  padding: 1rem;
+  color: #42446e;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  border-bottom: 0.3rem solid #011aff;
+}
+
+/* Add this rule to make the navbar fit the page width */
+@media (max-width: 768px) {
+  header .navbar.nav-toggle {
+    width: 100%;
+  }
+}
