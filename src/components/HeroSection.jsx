@@ -36,9 +36,10 @@ const HeroSection = () => {
 <div className="paragraph">
   <p>
     Welcome to my portfolio! I am thrilled to have you here and I would <br />like to take this opportunity to introduce myself as a software developer. <br />I am passionate about creating innovative and efficient software solutions.
-  </p><p>
-    Throughout my career, I have had the privilege of working on various projects,<br /> each contributing to my growth as a developer. <br /> I specialize in expertise such as web development, mobile app development, data analysis. <br /> I strive to deliver high-quality code that meets both functional and aesthetic requirements.
   </p>
+  {/* <p>
+    Throughout my career, I have had the privilege of working on various projects,<br /> each contributing to my growth as a developer. <br /> I specialize in expertise such as web development, mobile app development, data analysis. <br /> I strive to deliver high-quality code that meets both functional and aesthetic requirements.
+  </p> */}
 </div>
           <div className="box-container">
             <div className="box">

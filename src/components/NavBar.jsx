@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useState } from 'react';
 import './Navbar.css';
+import './mediaqueries.css';
 import '../App.css';
 
 const Navbar = () => {
