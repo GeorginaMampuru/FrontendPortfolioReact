@@ -1,13 +1,12 @@
 /* styles.css */
 * {
-  margin: 15px;
-  padding: 0;
+  margin: 6px;
+  padding: 2px;
   box-sizing: border-box;
   text-decoration: none;
   outline: none;
   border: none;
   text-transform: capitalize;
- 
   /* transition: all 0.2s linear; */
 }
 
@@ -57,65 +56,25 @@ header {
   z-index: 1000; /* Make sure Navbar stays on top */
 }
 
-/* ... (your existing styles) */
-
 /* Media Queries */
-@media screen and (max-width: 1600px) {
-  body {
-    font-size: 1.8rem;
+@media (max-width: 768px) {
+  /* Adjust margins and paddings for smaller screens */
+  * {
+    margin: 4px;
+    padding: 1px;
   }
-}
 
-@media screen and (max-width: 1440px) {
-  body {
-    font-size: 1.6rem;
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  body {
-    font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 992px) {
-  body {
-    font-size: 1.2rem;
-  }
   .content-container {
     margin-bottom: 30px;
   }
-}
 
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 1.1rem;
-  }
-  .content-container {
-    margin-bottom: 20px;
-  }
   .container {
     padding: 1rem;
+    margin: 0.5rem;
   }
-}
 
-@media screen and (max-width: 576px) {
-  body {
-    font-size: 1rem;
-  }
-  .content-container {
-    margin-bottom: 15px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  body {
-    font-size: 0.9rem;
-  }
-}
-
-@media screen and (max-width: 360px) {
-  body {
-    font-size: 0.8rem;
+  /* Add responsive styles for the sticky Navbar */
+  header {
+    padding: 15px 20px;
   }
 }
