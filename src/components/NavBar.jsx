@@ -10,6 +10,10 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false);
   const [isHomeActive, setIsHomeActive] = useState(false);
   const [isAboutActive, setIsAboutActive] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const [isSkillActive, setIsSkillActive] = useState(false);
+  // eslint-disable-next-line no-unused-vars
+  const [isProjectActive, setIsProjectActive] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -24,8 +28,8 @@ const Navbar = () => {
       <nav className={`navbar ${menuOpen ? 'nav-toggle' : ''}`}>
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#skills">My Teck Stack</a></li>
-          <li><a href="/#work">Projects</a></li>
+          <li><a href="#skills">Teck   Stack</a></li>
+          <li><a href="#work">Projects</a></li>
           <li><a href="#education">Education</a></li>
           <li><a href="#experience">Experience</a></li>
         </ul>
@@ -43,7 +47,16 @@ const Navbar = () => {
              
             </a>
           </li>
-          
+          <li>
+            <a className={isSkillActive ? 'active' : ''} href="#skill" onClick={() => setIsHomeActive(true)}>
+             
+            </a>
+          </li>
+          <li>
+            <a className={isAboutActive ? 'active' : ''} href="#education" onClick={() => setIsAboutActive(true)}>
+             
+            </a>
+          </li>
         </ul>
       </nav>
 

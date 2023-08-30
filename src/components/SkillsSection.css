@@ -9,15 +9,7 @@
   .skills .heading span {
     color: #1a6ce8;;
   }
-  .skills .container {
-    background: rgba(0, 0, 22, 0.4);
-    color: #fff;
-    border-radius: 1rem;
-    padding: 2rem;
-    width: 90%;
-    margin: auto;
-    margin-top: 2rem;
-  }
+ 
   .skills .container .row {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
