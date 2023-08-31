@@ -50,7 +50,7 @@ const Contact = () => {
               {/* Add reCAPTCHA */}
               <div className="recaptcha-container">
                 <ReCAPTCHA
-                  sitekey="YOUR_RECAPTCHA_SITE_KEY"
+                  sitekey="6LedwOsnAAAAANOMmFOeHjfuy9uaJnRz-HJRubkf"
                   onChange={(value) => {
                     console.log('reCAPTCHA verified:', value);
                   }}
