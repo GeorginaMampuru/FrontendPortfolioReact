@@ -138,7 +138,7 @@
     left: 8px;
   }
   /* contact section media queries starts */
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     .contact {
       min-height: 70vh;
     }
@@ -155,6 +155,13 @@
       width: 100%;
       margin-right: 2rem;
     }
+    .form{
+      position: relative;
+      right: 20%;
+    }
+
+  
+   
   }
   /* contact section media queries ends */
   /* contact section ends */

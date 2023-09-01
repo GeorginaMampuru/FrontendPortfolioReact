@@ -60,4 +60,16 @@
       margin-top: 5px;
       width: 100%;
     }
+
+    .skills{
+      
+      width: 40%;
+    }
+
+    #skillsContainer{
+      position: relative;
+      right: 10%;
+    }
+
+
   }

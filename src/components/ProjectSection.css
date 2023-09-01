@@ -125,5 +125,12 @@
     .work .box-container .grid-item .box{
       width: 95% !important;
     }
+    .box-container{
+      display: grid;
+      width: 35%;
+     
+    }
+
+    
   }
   

@@ -184,3 +184,62 @@
 .social-icons a.instagram:hover {
   background-color: #ee00da;
 }
+@media (max-width: 600px) {
+
+ section{
+  position: relative;
+  top: 12%;
+  right: 10%;
+  
+ }
+
+ .image{
+  position: absolute;
+  left: 5%;
+  width: 18%;
+  top: 55%;
+  
+
+ }
+
+ .content{
+
+  position: relative;
+  top: -15%;
+  width: 40%;
+  right: 5%;
+  
+ }
+
+ .content h2 {
+  font-size: medium;
+ }
+
+ .content p{
+  font-size: medium;
+ }
+
+ .paragraph p{
+  font-size: x-small;
+  position: relative;
+  left: 17%;
+  bottom: 50px;
+  width: 80%;
+  
+ }
+
+ .socials{
+  position: absolute;
+  left: 190px;
+  top: 110px;
+  
+ }
+
+ .box p{
+  position: absolute;
+  top: 220px;
+  left: 110px;
+ }
+
+
+}

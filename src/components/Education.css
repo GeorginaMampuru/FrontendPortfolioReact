@@ -103,6 +103,11 @@
       margin-right: 1rem;
       flex-wrap: wrap;
     }
+
+    .box-container{
+    
+      width: 35%;
+    }
   }
   /* education media queries ends*/
   /* education section ends */
