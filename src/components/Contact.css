@@ -163,5 +163,48 @@
   
    
   }
+  /* Existing styles for larger screens */
+
+/* Media Queries for Tablet Screens (601px to 1024px) */
+@media (min-width: 601px) and (max-width: 1024px) {
+  .contact .container {
+    margin: 3rem 2rem;
+  }
+
+  .contact .content form {
+    width: 80%;
+    margin-right: 0;
+  }
+}
+
+/* Media Queries for Mobile Screens (up to 600px) */
+@media (max-width: 600px) {
+  .contact {
+    min-height: 70vh;
+  }
+  
+  .contact .container {
+    margin: 3rem 0 2rem 0;
+  }
+
+  .contact .container .content {
+    padding: 18px 12px;
+  }
+
+  .contact .content .image-box {
+    display: none;
+  }
+
+  .contact .content form {
+    width: 100%;
+    margin-right: 2rem;
+  }
+
+  .form {
+    position: relative;
+    right: 20%;
+  }
+}
+
   /* contact section media queries ends */
   /* contact section ends */

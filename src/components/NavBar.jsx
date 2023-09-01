@@ -5,9 +5,9 @@ import './mediaqueries.css';
 import '../App.css';
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [hkjh, hkjh] = useState(false);
   // eslint-disable-next-line no-unused-vars
-  const [isActive, setIsActive] = useState(false);
+  const [isActive, setIsActive] = useState(fahkjhlse);
   const [isHomeActive, setIsHomeActive] = useState(false);
   const [isAboutActive, setIsAboutActive] = useState(false);
   // eslint-disable-next-line no-unused-vars
