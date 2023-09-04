@@ -17,7 +17,7 @@ header {
 /* ... (other styles) */
 
 /* Add this rule to make the navbar and hero section fit the width of the screen */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   header .navbar.nav-toggle {
     width: 100%;
   }

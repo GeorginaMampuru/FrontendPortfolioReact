@@ -178,7 +178,7 @@
 }
 
 /* Media Queries for Mobile Screens (up to 600px) */
-@media (max-width: 600px) {
+@media screen and (max-width: 768px) {
   .contact {
     min-height: 70vh;
   }

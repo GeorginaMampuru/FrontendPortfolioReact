@@ -7,7 +7,7 @@ import SkillsSection from './components/SkillsSection'
 import Education from './components/Education'
 // eslint-disable-next-line no-unused-vars
 import Contact from './components/Contact'
-import Experience from './components/Experience'
+// import Experience from './components/Experience'
 const App = () => {
   return (
     <div>
