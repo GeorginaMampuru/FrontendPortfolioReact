@@ -138,7 +138,7 @@
     left: 8px;
   }
   /* contact section media queries starts */
-  @media (max-width: 600px) {
+  @media screen and   (max-width: 600px) {
     .contact {
       min-height: 70vh;
     }
