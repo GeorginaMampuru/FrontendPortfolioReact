@@ -12,7 +12,7 @@ const TypedText = () => {
       typeSpeed: 50,
       backSpeed: 30,
       loop: true,
-    };
+    };   
 
     const typed = new Typed(typedRef.current, options);
 
