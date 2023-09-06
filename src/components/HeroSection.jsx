@@ -30,7 +30,7 @@ const HeroSection = () => {
     <section className="home" id="home">
       <div className="content-container">
         <div className="content">
-          <h2>Hi There,<br/> I am Georgina  <span>Mampuru</span></h2>
+          <h2 className='heading'>Hi There,<br/> I am Georgina  <span>Mampuru</span></h2>
           <p>i am into <span className="typing-text" ref={typingRef}></span></p>
           
 <div className="paragraph">

@@ -77,7 +77,24 @@
   
   /* Rest of your CSS code for buttons, social icons, etc. */
   
+  
   /* Media Queries */
+ @media screen and (max-width:320px){
+  .home{
+    width: 320px;
+    .content-container{
+      width: 320px;
+    }
+    .content{
+      width: 320px;
+      .heading{
+        font-size: 30px;
+      }
+    }
+  }
+  
+ }
+ 
   @media (max-width: 768px) {
     .content-container {
       flex-direction: column;

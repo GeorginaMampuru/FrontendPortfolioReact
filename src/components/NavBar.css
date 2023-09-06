@@ -11,24 +11,7 @@ header {
   padding: 20px 0; /* Adjust padding for horizontal spacing */
   background: #E5E5E5;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-  /* width: 100%; */
-}
-
-/* ... (other styles) */
-
-/* Add this rule to make the navbar and hero section fit the width of the screen */
-@media screen and (max-width: 768px) {
-  header .navbar.nav-toggle {
-    width: 100%;
-  }
-
-  /* Make hero section full width and adjust margin top */
-  .hero {
-    width: 100%;
-    margin-top: 80px; /* Adjust margin as needed */
-  }
-
-  /* Other styles specific to smaller screens */
+  width: 100%;
 }
 
 /* Logo */
@@ -75,41 +58,63 @@ header {
 }
 
 .contact-button button:hover {
-    background-color :#444 ;
+  background-color: #444;
 }
+
+/* Media Queries */
+@media screen and (max-width: 320px) {
+  header {
+    width: 100%;
+    padding: 15px 0; /* Adjust padding for horizontal spacing */
+  }
+
+  .logo {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .logo {
+    font-size: 20px;
+  }
+}
+
+/* Navbar.css */
 
 /* Hamburger Icon */
-#menu {
-    font-size :3rem ;
-    cursor :pointer ;
-    color :#1a6ce8 ;
-    display :none ;
-}
-
-/* Mobile Styles */
-@media (max-width :768px) {
-    /* Mobile styling rules... */
-}
-
-/* Style for the underline when link is active */
-.navbar ul li a.active,
-.navbar ul li a:hover,
-.navbar ul li a:focus {
-    padding :1rem ;
-    color :#42446e ;
-    border-radius :0.5rem ;
-    text-decoration :none ;
-    border-bottom :0.3rem solid #011aff ;
-}
-
-/* Add this rule to make the navbar fit the page width */
-@media (max-width :768px) {
-    header .navbar.nav-toggle {
-        width :100% ;
-    }
-}
-
 .hamburger {
-    display :none ;
-    cursor :pointer ;
+  display: none; /* Hide by default for larger screens */
+  cursor: pointer;
+}
+
+.hamburger.active .bar {
+  background-color: #333; /* Color of bars when active (open) */
+}
+
+.bar {
+  width: 25px;
+  height: 3px;
+  background-color: #42446e; /* Color of the hamburger bars */
+  margin: 5px 0;
+}
+
+/* Dropdown Menu */
+.dropdown-menu {
+  display: none; /* Hide by default */
+  position: absolute;
+  top: 70px; /* Adjust as needed to position the menu below the header */
+  right: 20px; /* Adjust as needed to align the menu with the header */
+  background: #E5E5E5;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Media Query to Show Hamburger Icon and Dropdown Menu for Small Screens */
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block; /* Show the hamburger icon for smaller screens */
+  }
+
+  .dropdown-menu {
+    display: block; /* Show the dropdown menu for smaller screens */
+  }
 }
